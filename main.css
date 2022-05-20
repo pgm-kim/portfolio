@@ -17,15 +17,22 @@
 
 }
 
-h1 {
+h1, Q {
     font-family: 'paytone_one';
-    font-size: 40px;
+    font-size: 45px;
 }
 
-p {
-    font-family: 'akshar';
-    font-size: 20px;
+h2 {
+    font-family: 'paytone_one';
+    font-size: 30px;
 }
+
+p, a {
+    font-family: 'akshar';
+    font-size: 28px;
+    color: black;
+}
+
 
 
 
