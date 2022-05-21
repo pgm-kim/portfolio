@@ -20,11 +20,13 @@
 h1, Q {
     font-family: 'paytone_one';
     font-size: 45px;
+    text-align: center;
 }
 
 h2 {
     font-family: 'paytone_one';
-    font-size: 30px;
+    font-size: 50px;
+    text-align: center;
 }
 
 p, a {
@@ -32,6 +34,8 @@ p, a {
     font-size: 28px;
     color: black;
 }
+
+
 
 
 
@@ -89,9 +93,7 @@ footer {
     margin: auto;
 }
 
-q {
-    
-}
+
 
 section {
     margin-bottom: 10rem;
@@ -123,13 +125,26 @@ section {
 
 button {
     margin-right: 3rem;
-    padding: 10px;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 30px;
+    background: none;
 }
 
 .mephoto {
     width: 40%;
     margin: auto;
     border-radius: 2rem;
+}
+
+
+.service{
+    background-image: url(./media/techs.jpg);
+    height: 85vh;
+    background-size: 100%;
+}
+.background {
+    width: 100%;
 }
 
 
