@@ -17,6 +17,10 @@
 
 }
 
+html {
+ scroll-behavior: smooth;
+}
+
 h1, Q {
     font-family: 'paytone_one';
     font-size: 45px;
@@ -70,7 +74,7 @@ footer {
     
 }
 
-.aboutme, .projects {
+.aboutme, .projectsitems {
     display: flex;
     justify-content: space-evenly;
 }
