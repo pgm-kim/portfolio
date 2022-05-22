@@ -81,9 +81,26 @@ footer {
     
 }
 
-.aboutme, .projectsitems {
+.aboutme, .projectsitems, .skills {
     display: flex;
     justify-content: space-evenly;
+}
+
+.skill {
+    border: 5rem;
+    margin-top: 3.2rem;
+    height: 20rem;
+    width: 17rem;
+    border-color: black;
+    border: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.skillicon {
+    width: 5rem
 }
 
 .project {
