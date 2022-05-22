@@ -91,10 +91,12 @@ footer {
 .contact {
     display: flex;
     justify-content: space-around;
-
 }
 
-
+.contactpage {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
 
 .skill {
     border: 5rem;
@@ -193,7 +195,7 @@ button {
 
 .contact {
     margin-bottom: 2rem;
-    margin-top: 8.5rem;
+    margin-top: 2rem;
 }
 
 .projectpage{
