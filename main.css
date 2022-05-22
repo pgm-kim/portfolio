@@ -112,7 +112,9 @@ footer {
 }
 
 .skillicon {
-    width: 5rem
+    width: 5rem;
+    margin-top: -2.5rem;
+    padding-left: 2rem;
 }
 
 .menu {
@@ -211,3 +213,4 @@ button {
     align-items: center;
 
 }
+
