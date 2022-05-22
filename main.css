@@ -36,7 +36,7 @@ h2 {
 
 h3 {
     font-family: 'paytone_one';
-    font-size: 30px;
+    font-size: 32px;
     padding-top: 1rem;
     text-align: center;
 
@@ -108,11 +108,15 @@ footer {
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    box-shadow:inset;
+    box-shadow: 20px 20px 10px grey;
 }
 
 .skillicon {
     width: 5rem
+}
+
+.menu {
+    padding-top: 1rem;
 }
 
 .project {
@@ -157,10 +161,9 @@ footer {
 }
 
 .ggitem {
-    width:100%;
+    width:25rem;
     display: flex;
     justify-content: space-between;
-    padding: 0.7rem;
 }
 
 .btn {
