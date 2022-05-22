@@ -37,8 +37,7 @@ h2 {
 h3 {
     font-family: 'paytone_one';
     font-size: 30px;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    text-align: center;
 
 }
 
@@ -94,8 +93,7 @@ footer {
 }
 
 .contactpage {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 4rem;
 }
 
 .skill {
@@ -151,7 +149,7 @@ footer {
 
 
 .socials  {
-    width:20rem ;
+    width:25rem ;
     display: flex;
     justify-content: space-between;
     padding:0.7rem
