@@ -83,10 +83,11 @@ footer {
     
 }
 
-.aboutme, .projectsitems, .skills {
+.aboutme, .projectsitems, .skills, .contacts {
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .skill {
     border: 5rem;
