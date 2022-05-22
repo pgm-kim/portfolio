@@ -37,13 +37,12 @@ h2 {
 h3 {
     font-family: 'paytone_one';
     font-size: 30px;
-    text-align: center;
 
 }
 
 p, a {
     font-family: 'akshar';
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
@@ -92,9 +91,7 @@ footer {
     justify-content: space-around;
 }
 
-.contactpage {
-    padding-top: 4rem;
-}
+
 
 .skill {
     border: 5rem;
@@ -149,16 +146,14 @@ footer {
 
 
 .socials  {
-    width:25rem ;
+    width:20rem ;
     display: flex;
     justify-content: space-between;
-    padding:0.7rem
 }
 .ggitem {
     width:100%;
     display: flex;
     justify-content: space-between;
-    padding: 0.7rem;
 }
 
 .btn {
@@ -192,7 +187,6 @@ button {
 
 
 .contact {
-    margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
