@@ -127,18 +127,17 @@ footer {
 }
 
 .quote {
-
-    margin: auto;
     padding: 8rem;
-    margin: auto;
-}
-
-
-
-section {
     margin-bottom: 10rem;
     margin-top: 10rem;
 }
+
+.aboutme {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+
 
 .socialicon {
     width: 30px;
@@ -190,7 +189,6 @@ button {
 .background {
     width: 100%;
 }
-
 
 
 .contact {
