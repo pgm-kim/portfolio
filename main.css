@@ -43,6 +43,11 @@ h3 {
 
 }
 
+.titlecards {
+    display: flex;
+    justify-content: center;
+}
+
 p, a {
     font-family: 'akshar';
     font-size: 25px;
