@@ -171,6 +171,7 @@ footer {
     width:25rem;
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .btn {
