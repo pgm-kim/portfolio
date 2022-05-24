@@ -144,7 +144,7 @@ footer {
 
 .aboutme, .projects {
     padding-bottom: 8rem;
-    padding-top: 8rem;
+    padding-top: 10rem;
 }
 
 
@@ -153,9 +153,6 @@ footer {
     width: 30px;
 }
 
-.socialicon:hover {
-    animation: shake 0.5s;
-}
 
 .form {
     width: 20rem;
