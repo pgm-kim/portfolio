@@ -77,10 +77,13 @@ header {
 }
 
 footer {
+    background-color: black;
+    color: #f8f7f3;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
     margin-bottom: 0;
+    width: 400;
 }
 
 .menu {
