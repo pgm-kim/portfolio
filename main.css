@@ -31,7 +31,6 @@ h2 {
     font-family: 'paytone_one';
     font-size: 40px;
     text-align: center;
-    margin: 3.5rem;
 
 }
 
@@ -62,6 +61,16 @@ p, a {
 body {
     width: 80%;
     margin: auto;
+    background-color: #f8f7f3;
+}
+.headercenter {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    top: 0;
+    width: 80%;
     background-color: #f8f7f3;
 }
 
@@ -98,8 +107,19 @@ footer {
     justify-content: space-evenly;
 }
 
+.projectsitems {
+    margin-top: 2;
+    margin-bottom: 3rem;
+}
 
 
+.skills {
+    background-image: url(./media/techs.jpg);
+    background-size: 100%;
+    height: 85vh;
+    margin-top: -5rem;
+
+}
 .contact {
     display: flex;
     justify-content: space-around;
@@ -110,7 +130,7 @@ footer {
 
 .skill {
     border: 5rem;
-    margin-top: 3.2rem;
+    margin-top: 10rem;
     height: 20rem;
     width: 17rem;
     border-color: black;
@@ -139,12 +159,17 @@ footer {
 .quote {
     padding: 8rem;
     margin-bottom: 10rem;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
-.aboutme, .projects {
-    padding-bottom: 8rem;
-    padding-top: 10rem;
+.aboutme, .projects  {
+    padding-bottom:10rem;
+    padding-top: 8rem;
+}
+
+.service {
+    padding-bottom:10rem;
+    padding-top: 5rem;
 }
 
 
@@ -197,11 +222,7 @@ button {
 }
 
 
-.service{
-    background-image: url(./media/techs.jpg);
-    height: 85vh;
-    background-size: 100%;
-}
+
 
 .background {
     width: 100%;
