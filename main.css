@@ -96,7 +96,8 @@ footer {
 }
 
 .menu {
-    width: 25%;
+    padding-top: 1rem;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     
@@ -148,9 +149,7 @@ footer {
     padding-left: 2rem;
 }
 
-.menu {
-    padding-top: 1rem;
-}
+
 
 .intro  {
     width: 40%;
