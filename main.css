@@ -84,8 +84,7 @@ header, main {
 }
 
 header {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     position: fixed;
