@@ -190,6 +190,12 @@ footer {
     width: 20rem;
 }
 
+.gegevens {
+    width:25rem ;
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.7rem
+}
 
 .socials  {
     width:25rem ;
