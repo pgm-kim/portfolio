@@ -56,9 +56,13 @@ p, a {
 }
 
 
-
-
 body {
+    margin: auto;
+    background-color: #f8f7f3;
+    justify-content: center;
+}
+
+header, main {
     width: 80%;
     margin: auto;
     background-color: #f8f7f3;
@@ -72,6 +76,11 @@ body {
     top: 0;
     width: 80%;
     background-color: #f8f7f3;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -192,8 +201,6 @@ footer {
 
 .ggitem {
     width:25rem;
-    display: flex;
-    justify-content: space-between;
     /* padding: 1rem; */
 }
 
