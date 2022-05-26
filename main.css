@@ -191,6 +191,7 @@ footer {
 }
 
 .gegevens {
+    
     width:25rem ;
     display: flex;
     justify-content: space-evenly;
