@@ -141,13 +141,12 @@ footer {
 
 
 .skill {
-    border: 5rem;
     margin-top: 10rem;
     height: 20rem;
     width: 17rem;
     border-color: black;
     border: 1rem;
-    background-color: #F5F5F5;
+    background-color:white;
     border-radius: 20px;
     display: flex;
     justify-content: center;
