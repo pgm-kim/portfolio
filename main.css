@@ -158,7 +158,9 @@ footer {
     padding-left: 2rem;
 }
 
-
+.fa {
+    color: black;
+}
 
 .intro  {
     width: 40%;
