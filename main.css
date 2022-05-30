@@ -57,6 +57,14 @@ p, a {
     padding-right: 1rem;
 }
 
+.formtext{
+    font-family: 'akshar';
+    font-size: 25px;
+    color: black;
+    padding-left: 0rem;
+    padding-right: 1rem;
+}
+
 
 body {
     margin: auto;
@@ -350,3 +358,36 @@ button {
     background-color: white;
     color: #333333;
   } */ */
+  .form {
+    width: 20rem;
+}
+.input {
+    position: relative;
+    width: 20rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.input__field {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid black;
+    padding: 1.5rem 0;
+}
+
+.input__field:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.input__field:focus + .input__label {
+    transform: translateY(-2rem) scale(0.90);
+    font-size: 3rem;
+    color: black;
+    transition: all 0.25s ease;
+}
+.input__label {
+    position: absolute;
+     top: 1rem;
+    transition: all 0.25s ease-out;
+    transform-origin: left 0;
+}
