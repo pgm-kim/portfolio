@@ -119,7 +119,7 @@ footer {
 }
 
 .projectsitems {
-    margin-top: 2;
+    margin-top: 5rem;
     margin-bottom: 3rem;
 }
 
@@ -174,9 +174,15 @@ footer {
     margin-top: 8rem;
 }
 
-.aboutme, .projects  { 
+.aboutme  { 
     padding-bottom:10rem;
-    padding-top: 8rem;
+    padding-top:10rem;
+}
+
+.projects {
+    padding-bottom:10rem;
+    padding-top:5rem;
+
 }
 
 .service {
