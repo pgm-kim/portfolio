@@ -269,9 +269,8 @@ button {
 }
 
 .projectpage{
-    width: 10%;
-    margin: auto;
-    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 
