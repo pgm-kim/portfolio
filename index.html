@@ -43,8 +43,10 @@
                 <div class="btn">
                     
                     <a href="./about.html"><button>more about me</button></a>  
-                    <div><a href="https://www.linkedin.com/in/kimberly-sabbe-538760220/" target="_blank"><img src="./media/linked in.svg" alt="icon linked-in" class="socialicon"></a></div>
-            </div></div>
+                    <div><a href="https://www.linkedin.com/in/kimberly-sabbe-538760220/" target="_blank"><svg class="linked" id="linked_in_icon" data-name="linked in icon" xmlns="http://www.w3.org/2000/svg" width="33" height="32.999" viewBox="0 0 33 32.999">
+                        <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M7.387,33H.545V10.968H7.387ZM3.962,7.963a3.981,3.981,0,1,1,3.962-4A4,4,0,0,1,3.962,7.963ZM32.993,33H26.166V22.275c0-2.556-.052-5.834-3.557-5.834-3.557,0-4.1,2.777-4.1,5.65V33H11.672V10.968h6.562v3.005h.1A7.189,7.189,0,0,1,24.8,10.416c6.924,0,8.2,4.56,8.2,10.482V33Z" transform="translate(0 -0.001)"/>
+                      </svg>
+                      </a></div></div>
         </section>
         <section class="service" id="service">
             <h2> < SERVICE/ > </h2>
@@ -64,7 +66,14 @@
                 </div>
             </div>
         </section>
-            
+        <div id="overlay" onclick="off()">
+            <div id="text">Overlay Text</div>
+          </div>
+          
+          <div style="padding:20px">
+            <h2>Overlay with Text</h2>
+            <button onclick="on()">Turn on overlay effect</button>
+          </div>
         <section class="quote">
             <q>
                 Experience is the name everyone gives to their mistakes
@@ -176,6 +185,15 @@
             </div></div>
         </section>
     </main>
+    <script>
+        function on() {
+          document.getElementById("overlay").style.display = "block";
+        }
+        
+        function off() {
+          document.getElementById("overlay").style.display = "none";
+        }
+        </script>
     <footer>
         Copyright © 2022 kimberly sabbe,<br>
 All rights reserved.

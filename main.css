@@ -240,7 +240,8 @@ footer {
     width:25rem ;
     display: flex;
     justify-content: space-between;
-    padding:0.7rem
+    padding:0.7rem;
+     vertical-align: middle; 
 }
 
 .ggitem {
@@ -410,3 +411,27 @@ button {
     transition: all 0.25s ease-out;
     transform-origin: left 0;
 }
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
