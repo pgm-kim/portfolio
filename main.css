@@ -196,10 +196,6 @@ footer {
     fill: #003166;
 }
 
-.poster:hover {
-    fill: white;
-}
-
 .intro  {
     width: 40%;
 }
@@ -284,14 +280,14 @@ button {
     border-radius: 50rem;
     background-color: transparent;
     border-color: transparent;
-    display:block;
+    display:flex;
   position: fixed;
   bottom: 20px;
 }
 
+
 .posterbtn:hover {
-    background-color: #003166;
-    color: white;
+    background-color: #d4d4d4;
     cursor:pointer;
   }
 
