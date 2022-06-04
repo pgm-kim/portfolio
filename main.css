@@ -55,6 +55,7 @@ p, a {
     color: black;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-decoration: none;
 }
 
 .formtext{
@@ -63,6 +64,11 @@ p, a {
     color: black;
     padding-left: 0rem;
     padding-right: 1rem;
+}
+
+a:hover {
+    text-decoration:underline;
+
 }
 
 
