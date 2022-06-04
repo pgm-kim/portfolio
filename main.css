@@ -278,10 +278,13 @@ button {
     border-radius: 50rem;
     background-color: transparent;
     border-color: transparent;
+    display:block;
+  position: fixed;
+  bottom: 20px;
 }
 
 .posterbtn:hover {
-    background-color: #d4d4d;
+    background-color: #003166;
     color: white;
     cursor:pointer;
   }
@@ -430,7 +433,7 @@ button {
     transform-origin: left 0;
 }
 
-#overlay {
+#overlay, #overlaypp {
     position: fixed;
     display: none;
     width: 100%;
