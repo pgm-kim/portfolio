@@ -170,6 +170,15 @@ footer {
     color: black;
 }
 
+.spotify:hover{
+    fill: #1DB954;
+}
+
+.twitter:hover {
+    fill: #1DA1F2;
+}
+
+
 .intro  {
     width: 40%;
 }
