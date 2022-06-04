@@ -276,7 +276,15 @@ button {
     width: 4rem;
     height: 4rem;
     border-radius: 50rem;
+    background-color: transparent;
+    border-color: transparent;
 }
+
+.posterbtn:hover {
+    background-color:#d4d4d4;
+    color: white;
+    cursor:pointer;
+  }
 
 .mephoto {
     width: 20rem;
