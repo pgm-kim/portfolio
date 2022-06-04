@@ -178,6 +178,17 @@ footer {
     fill: #1DA1F2;
 }
 
+.insta:hover {
+    fill: #C13584;
+}
+
+.github:hover {
+    fill:#833AB4;
+}
+
+.linked:hover {
+    fill: #003166;
+}
 
 .intro  {
     width: 40%;
