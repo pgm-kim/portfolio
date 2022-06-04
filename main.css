@@ -190,6 +190,10 @@ footer {
     fill: #003166;
 }
 
+.poster:hover {
+    fill: white;
+}
+
 .intro  {
     width: 40%;
 }
@@ -266,6 +270,12 @@ button {
     width: 12rem;
     border-radius: 5px;
     background: none;
+}
+
+.posterbtn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50rem;
 }
 
 .mephoto {
