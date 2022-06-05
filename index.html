@@ -94,11 +94,11 @@
                 <div class="project"><img src="./media/Picture7.svg" alt="skate project"></div>
                 <div class="project"><img src="./media/Picture8ghj.svg" alt=""></div>
             </div>
-            <span id="dots"></span><span id="more"><div class="projectsitems" >
+            <span id="dots"></span><span id="more"><div class="projectsitems">
                 <div class="project"><img src="./media/Picture7.svg" alt="skate project"></div>
                 <div class="project"><img src="./media/Picture8ghj.svg" alt=""></div>
             </div></span>
-<button onclick="myFunction()" id="myBtn">show all</button>
+<button onclick="myFunction()" id="btnprojects">see all</button>
             <div>
         <!-- <div class="projectpage">
                     <a href="./projects.html"><button>see all </button></a>  
@@ -220,11 +220,11 @@
         function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var btnText = document.getElementById("btnprojects");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "show all"; 
+    btnText.innerHTML = "show more"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";

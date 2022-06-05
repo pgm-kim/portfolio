@@ -134,7 +134,7 @@ footer {
 
 .projectsitems {
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -196,8 +196,21 @@ footer {
     fill: #003166;
 }
 
+#more {
+    display: none;
+}
+
 .intro  {
     width: 40%;
+}
+
+#btnprojects {
+    display: block;
+    margin: 0 auto;
+}
+
+#dots {
+    display: none;
 }
 
 .quote {
