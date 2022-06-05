@@ -283,6 +283,8 @@ button {
     cursor:pointer;
   }
 
+  /* overlays  */
+
 .projectpage{
     display: flex;
     justify-content: center;
