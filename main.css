@@ -156,6 +156,7 @@ footer {
 .projectsitems {
     margin-top: 5rem;
     margin-bottom: 4rem;
+    cursor: pointer;
 }
 
 
