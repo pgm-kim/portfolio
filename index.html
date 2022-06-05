@@ -92,30 +92,30 @@
             <h2>< PROJECTS/ ></h2>
             <div class="projectsitems" >
                 <div class="project">
-                    <div id="overlay" onclick="off()">
-                        <div id="text">more about me</div>
+                    <div id="overlayproject" onclick="offproject()">
+                        <div id="text">detailpagina project</div>
                       </div>
-                        <div onclick="on()"><img src="./media/Picture7.svg" alt="skate project"></div>  
+                        <div onclick="onproject()"><img src="./media/Picture7.svg" alt="skate project"></div>  
                     </div>
                     <div class="project">
-                        <div id="overlay" onclick="off()">
-                            <div id="text">more about me</div>
+                        <div id="overlayproject" onclick="offproject()">
+                            <div id="text">detailpagina project</div>
                           </div>
-                            <div onclick="on()"><img src="./media/Picture8ghj.svg" alt="skate project"></div>  
+                            <div onclick="onproject()"><img src="./media/Picture8ghj.svg" alt="skate project"></div>  
                         </div>
             </div>
             <span id="dots"></span><span id="more"><div class="projectsitems">
                 <div class="project">
-                    <div id="overlay" onclick="off()">
-                        <div id="text">more about me</div>
+                    <div id="overlayproject" onclick="offproject()">
+                        <div id="text">detailpagina project</div>
                       </div>
-                        <div onclick="on()"><img src="./media/Picture7.svg" alt="skate project"></div>  
+                        <div onclick="onproject()"><img src="./media/Picture7.svg" alt="skate project"></div>  
                     </div>
                     <div class="project">
-                        <div id="overlay" onclick="off()">
-                            <div id="text">more about me</div>
+                        <div id="overlayproject" onclick="offproject()">
+                            <div id="text">detailpagina project</div>
                           </div>
-                            <div onclick="on()"><img src="./media/Picture8ghj.svg" alt="skate project"></div>  
+                            <div onclick="onproject()"><img src="./media/Picture8ghj.svg" alt="skate project"></div>  
                         </div>
             </div></span>
 <button onclick="myFunction()" id="btnprojects">see all</button>
@@ -236,6 +236,15 @@
         function offposter() {
           document.getElementById("overlaypp").style.display = "none";
         }
+
+        function onproject() {
+          document.getElementById("overlayproject").style.display = "block";
+        }
+        
+        function offproject() {
+          document.getElementById("overlayproject").style.display = "none";
+        }
+
 
         function myFunction() {
   var dots = document.getElementById("dots");

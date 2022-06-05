@@ -449,7 +449,7 @@ button {
     transform-origin: left 0;
 }
 
-#overlay, #overlaypp {
+#overlay, #overlaypp, #overlayproject {
     position: fixed;
     display: none;
     width: 100%;
