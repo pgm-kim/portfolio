@@ -1,3 +1,54 @@
+
+(() => {
+
+  const portfolio = {
+    init() {
+
+      this.on();
+      this.off();
+
+      this.onposter();
+      this.offposter();
+
+      this.onproject();
+      this.offproject();
+    },
+
+     on() {
+      document.getElementById("overlay").style.display = "block";
+    },
+    
+    off() {
+      document.getElementById("overlay").style.display = "none";
+    },
+
+
+     onposter() {
+      document.getElementById("overlaypp").style.display = "block";
+    },
+    
+     offposter() {
+      document.getElementById("overlaypp").style.display = "none";
+    },
+
+
+     onproject() {
+      document.getElementById("overlayproject").style.display = "block";
+    },
+    
+    offproject() {
+      document.getElementById("overlayproject").style.display = "none";
+    },
+
+  };
+
+  portfolio.init();
+
+})();
+
+
+
+
 function on() {
     document.getElementById("overlay").style.display = "block";
   }
