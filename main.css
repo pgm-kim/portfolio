@@ -121,14 +121,15 @@ footer {
 
 .skills {
     background-image: url(./media/techs.jpg);
-    background-size: 100%;
+    background-size: 105%;
     height: 80vh;
+    margin-left: -2rem;
     margin-top: -5rem;
 
 }
 
 .skill {
-    margin-top: 10rem;
+    margin-top: 9rem;
     height: 20rem;
     width: 17rem;
     border-color: black;
@@ -196,12 +197,13 @@ footer {
 
 .intro  {
     width: 60%;
-    right: 0px;
+    padding-left: 10rem;
+    margin-right: -3rem;
 }
 
+
 .intropic {
-    display: block;
-    justify-content: center;
+    padding-left: 2rem;
 }
 
 /* see more thing */
@@ -262,6 +264,7 @@ footer {
 .btn {
     display:flex;
     justify-content:end;
+    padding-top: 2rem;
 } 
 
 button:hover {
