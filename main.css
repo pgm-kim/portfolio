@@ -172,11 +172,12 @@ footer {
 
 .projectpic {
     cursor: pointer;
+    
 }
 
 .projectpic:hover {
     cursor: pointer;
-    color: rgba(0,0,0,0.5);
+    filter:
 }
 
 
