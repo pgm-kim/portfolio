@@ -83,8 +83,15 @@ header {
     
 }
 
+a {
+    border-bottom: 3px solid #f8f7f3;
+    padding-bottom: 0.60rem;
+}
+
+
 a:hover {
-    text-decoration:underline;
+    /* text-decoration:underline; */
+    border-bottom: 3px solid black;
 
 }
 
@@ -161,7 +168,15 @@ footer {
 .projectsitems {
     margin-top: 5rem;
     margin-bottom: 4rem;
+}
+
+.projectpic {
     cursor: pointer;
+}
+
+.projectpic:hover {
+    cursor: pointer;
+    color: rgba(0,0,0,0.5);
 }
 
 
