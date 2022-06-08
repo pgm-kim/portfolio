@@ -309,8 +309,12 @@ button {
   right: 20px;
 }
 
+.posterpresentatie {
+    width: 40rem;
+}
+
 .posterbtn:hover {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
     cursor:pointer;
   }
 
