@@ -91,7 +91,7 @@ a {
 
 a:hover {
     /* text-decoration:underline; */
-    border-bottom: 3px solid black;
+    text-decoration: underline;
 
 }
 
