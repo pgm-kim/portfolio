@@ -313,9 +313,7 @@ button {
     width: 40rem;
 }
 
-svg {
-    height: 35px;
-}
+
 
 .posterbtn:hover {
     background-color: rgba(0,0,0,0.3);
@@ -348,7 +346,7 @@ svg {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 50px;
+    font-size: 20px;
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
