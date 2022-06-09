@@ -138,10 +138,14 @@ footer {
     padding-top: 5rem;
 }
 
+.overlayicon {
+    fill: #f8f7f3;
+}
+
 .skills {
     background-image: url(./media/techs.jpg);
     background-size: 70rem;
-    height: 80vh;
+    height: 75vh;
     margin-left: -2rem;
     margin-top: -5rem;
 
