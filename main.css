@@ -84,8 +84,11 @@ header {
 }
 
 a {
-    border-bottom: 3px solid #f8f7f3;
     padding-bottom: 0.60rem;
+}
+
+.cvlink{
+    color: #F5F5F5;
 }
 
 
@@ -93,6 +96,15 @@ a:hover {
     /* text-decoration:underline; */
     text-decoration: underline;
 
+}
+
+.socialsov {
+    padding-top: 3rem;
+    width:25rem ;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle; 
+    margin: auto;
 }
 
 main {
@@ -253,7 +265,12 @@ footer {
 
 .socialicon {
     width: 30px;
-    margin: auto;
+}
+
+.divsc {
+    display:flex;
+    justify-content:end;
+    padding-top: 2rem;
 }
 
 /* contact me section  */
@@ -370,10 +387,11 @@ button {
   }
 
   #text{
+    font-family: 'akshar';
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
