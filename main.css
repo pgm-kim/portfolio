@@ -65,6 +65,19 @@ p, a {
     text-decoration: none;
 }
 
+.link {
+    font-family: 'akshar';
+    font-size: 25px;
+    border: none;
+    text-decoration: underline;
+}
+
+.link:hover  {
+    text-decoration: underline;
+    background-color: transparent;
+    color: black;
+}
+
 header {
     padding: 1rem;
     display: flex;
@@ -220,7 +233,7 @@ footer {
 }
 
 .linked:hover {
-    fill: blue;
+    fill: #0A66C2;
 }
 
 #more {
@@ -231,6 +244,8 @@ footer {
     width: 50rem;
     padding-left: 5rem;
 }
+
+
 
 
 
