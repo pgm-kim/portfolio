@@ -345,10 +345,15 @@ input {
 }
 
 .linksoverlays {
-    width: 12rem;
+    width: 15rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 1rem;
+}
+
+.splitov {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .linksoverlays:hover {
