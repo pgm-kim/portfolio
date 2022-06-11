@@ -499,3 +499,450 @@ button {
     justify-content: center;
     margin-right: -3rem;
   }
+
+
+
+
+  /* .splitov {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksoverlays:hover {
+    color: #833AB4;
+    text-decoration: underline;
+    fill: #833AB4;
+
+}
+
+.linksov {
+    width: 25rem;
+}
+
+/* buttons */
+
+/* .btn {
+    display:flex;
+    justify-content:end;
+    padding-top: 2rem;
+    
+} 
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+  }
+
+button {
+    margin-right: 3rem;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 5px;
+    background: none;
+}
+
+.posterbtn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    display:flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.posterpresentatie {
+    width: 40rem;
+}
+
+.mecontainer {
+    width: 20rem;
+    margin: auto;
+}
+
+.photome {
+    width: 30rem;
+}
+
+.mepic {
+    width: 25rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.aboutmecontent {
+    width: 50rem;
+    margin:  auto;
+    margin-left: 5.5rem;
+}
+
+.abme {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65rem;
+    margin: auto;
+}
+
+
+
+.posterbtn:hover {
+    background-color: rgba(0,0,0,0.3);
+    cursor:pointer;
+  }
+
+  /* overlays  */
+
+/* .projectpage{
+    display: flex;
+    justify-content: center;
+
+}
+
+#overlay, #overlaypp, #overlayproject {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #text {
+    font-family: 'akshar';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  .textoverlay {
+    font-family: 'akshar';
+    color: white;
+    font-size: 25px;
+    margin: auto;
+  }
+
+
+  /* .mecontainer {
+      height: 40rem;
+      width: 70rem;
+      /* background-color:#f8f7f3; */
+      /* border-radius: 2rem;
+  }
+
+  .ccform {
+    margin-top: -2rem;
+  }
+
+  .formbtn {
+    display: flex;
+    justify-content: center;
+    margin-right: -3rem;
+  }  */
+
+  /* .splitov {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksoverlays:hover {
+    color: #833AB4;
+    text-decoration: underline;
+    fill: #833AB4;
+
+}
+
+.linksov {
+    width: 25rem;
+}
+
+/* buttons */
+
+/* .btn {
+    display:flex;
+    justify-content:end;
+    padding-top: 2rem;
+    
+} 
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+  }
+
+button {
+    margin-right: 3rem;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 5px;
+    background: none;
+}
+
+.posterbtn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    display:flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.posterpresentatie {
+    width: 40rem;
+}
+
+.mecontainer {
+    width: 20rem;
+    margin: auto;
+}
+
+.photome {
+    width: 30rem;
+}
+
+.mepic {
+    width: 25rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.aboutmecontent {
+    width: 50rem;
+    margin:  auto;
+    margin-left: 5.5rem;
+}
+
+.abme {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65rem;
+    margin: auto;
+}
+
+
+
+.posterbtn:hover {
+    background-color: rgba(0,0,0,0.3);
+    cursor:pointer;
+  }
+
+  /* overlays  */
+
+/* .projectpage{
+    display: flex;
+    justify-content: center;
+
+}
+
+#overlay, #overlaypp, #overlayproject {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #text {
+    font-family: 'akshar';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  .textoverlay {
+    font-family: 'akshar';
+    color: white;
+    font-size: 25px;
+    margin: auto;
+  }
+
+
+  /* .mecontainer {
+      height: 40rem;
+      width: 70rem;
+      /* background-color:#f8f7f3; */
+      /* border-radius: 2rem;
+  }
+
+  .ccform {
+    margin-top: -2rem;
+  }
+
+  .formbtn {
+    display: flex;
+    justify-content: center;
+    margin-right: -3rem;
+  }  */
+
+  /* .splitov {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksoverlays:hover {
+    color: #833AB4;
+    text-decoration: underline;
+    fill: #833AB4;
+
+}
+
+.linksov {
+    width: 25rem;
+}
+
+/* buttons */
+
+/* .btn {
+    display:flex;
+    justify-content:end;
+    padding-top: 2rem;
+    
+} 
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+  }
+
+button {
+    margin-right: 3rem;
+    padding: 15px;
+    width: 12rem;
+    border-radius: 5px;
+    background: none;
+}
+
+.posterbtn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    display:flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.posterpresentatie {
+    width: 40rem;
+}
+
+.mecontainer {
+    width: 20rem;
+    margin: auto;
+}
+
+.photome {
+    width: 30rem;
+}
+
+.mepic {
+    width: 25rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.aboutmecontent {
+    width: 50rem;
+    margin:  auto;
+    margin-left: 5.5rem;
+}
+
+.abme {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65rem;
+    margin: auto;
+}
+
+
+
+.posterbtn:hover {
+    background-color: rgba(0,0,0,0.3);
+    cursor:pointer;
+  }
+
+  /* overlays  */
+
+/* .projectpage{
+    display: flex;
+    justify-content: center;
+
+}
+
+#overlay, #overlaypp, #overlayproject {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  #text {
+    font-family: 'akshar';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+
+  .textoverlay {
+    font-family: 'akshar';
+    color: white;
+    font-size: 25px;
+    margin: auto;
+  }
+
+
+  /* .mecontainer {
+      height: 40rem;
+      width: 70rem;
+      /* background-color:#f8f7f3; */
+      /* border-radius: 2rem;
+  }
+
+  .ccform {
+    margin-top: -2rem;
+  }
+
+  .formbtn {
+    display: flex;
+    justify-content: center;
+    margin-right: -3rem;
+  }  */
