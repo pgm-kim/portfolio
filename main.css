@@ -248,6 +248,18 @@ input {
     fill: #0A66C2;
 }
 
+.html:hover {
+    fill: orange;
+}
+
+.css:hover {
+    fill: blue;
+}
+
+.js:hover {
+    fill: yellow;
+}
+
 #more {
     display: none;
 }
