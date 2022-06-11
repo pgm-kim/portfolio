@@ -298,6 +298,10 @@ input {
     width: 30px;
 }
 
+.formbtn {
+    margin: 0 auto;
+}
+
 .divsc {
     display:flex;
     justify-content:end;
@@ -434,4 +438,13 @@ button {
       width: 70rem;
       /* background-color:#f8f7f3; */
       border-radius: 2rem;
+  }
+
+  .ccform {
+    margin-top: -2rem;
+  }
+
+  .formbtn {
+    display: flex;
+    justify-content: center;
   }
