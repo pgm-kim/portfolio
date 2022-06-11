@@ -138,7 +138,7 @@ footer {
     margin-top: 2rem;
 }
 
-.skills, .projectsitems, .contact {
+.skills, .projectsitems, .contact, .splitov {
     display: flex;
     justify-content: space-evenly;
 }
