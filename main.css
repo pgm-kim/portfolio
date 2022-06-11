@@ -316,6 +316,13 @@ input {
     padding:0.7rem
 }
 
+.techicons {
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.7rem
+}
+
 .socials  {
     width:25rem ;
     display: flex;
@@ -323,6 +330,20 @@ input {
     padding:0.7rem;
     vertical-align: middle; 
     margin: auto;
+}
+
+.linksoverlays {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.linksoverlays:hover {
+    color: #833AB4;
+    text-decoration: underline;
+    fill: #833AB4;
+
 }
 
 /* buttons */
@@ -421,7 +442,7 @@ button {
     cursor: pointer;
   }
 
-  #text{
+  #text {
     font-family: 'akshar';
     position: absolute;
     top: 50%;
@@ -430,6 +451,13 @@ button {
     color: white;
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
+  }
+
+  .textoverlay {
+    font-family: 'akshar';
+    color: white;
+    font-size: 25px;
+    margin: auto;
   }
 
 
