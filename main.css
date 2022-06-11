@@ -349,6 +349,7 @@ input {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 1rem;
+    margin: auto;
 }
 
 .splitov {
@@ -361,6 +362,10 @@ input {
     text-decoration: underline;
     fill: #833AB4;
 
+}
+
+.linksov {
+    width: 25rem;
 }
 
 /* buttons */
