@@ -199,6 +199,18 @@ input {
     padding-left: 2rem;
 }
 
+.collored {
+     background-color: #f3ec78; 
+    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 2s ease infinite;
+    height: fit-content;
+}
+
 
 /* i do not understand my code  */
 .centered {
